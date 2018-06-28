@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_us_main"
+        android:layout_centerInParent="true"
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/about_us"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/about_us_image"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_us_image"
+            android:layout_marginTop="10dp"
+            android:id="@+id/about_us_text_para"
+            android:textColor="#ffffff"
+            android:text="This application is developed by Haard Shah as a part of internshala online training."
+        android:padding="20dp"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_us_text_para"
+            android:id="@+id/about_us_text_para_2"
+            android:textColor="#ffffff"
+            android:text="We are always open for suggestions, reviews and FOOD."
+            android:padding="30dp"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_us_text_para_2"
+            android:layout_marginTop="0dp"
+            android:id="@+id/about_us_version"
+            android:textColor="#ffffff"
+            android:text="          Version: 1.0"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+
+            android:textStyle="italic"
+            android:textSize="18sp"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
